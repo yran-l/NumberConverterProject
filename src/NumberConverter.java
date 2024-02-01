@@ -2,7 +2,7 @@ public class NumberConverter {
     int[] digits;
     int base;
 
-    final static String DIGIT_MAP = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqerstuvwxyz+/";
+    final static String DIGIT_MAP = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/";
     public NumberConverter(int number, int base) {
         String numberAsString = Integer.toString(number);
         digits = new int[numberAsString.length()];
