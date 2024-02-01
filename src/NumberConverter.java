@@ -37,6 +37,9 @@ public class NumberConverter {
                 }
             }
         }
+        if (finalNum.equals("") && b != 1){
+            finalNum = finalNum + 0;
+        }
         return finalNum;
     }
 }
