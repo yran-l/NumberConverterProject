@@ -20,11 +20,11 @@ class ConverterRunner {
         boolean run = true;
         int convert = 0;
         while (run) {
-            System.out.print("Select a base to convert to, 1-63: ");
+            System.out.print("Select a base to convert to, 2-63: ");
             String baseConvert = s.nextLine();
             convert = Integer.parseInt(baseConvert);
 
-            if (convert > 0 && convert < 64) {
+            if (convert > 1 && convert < 64) {
                 run = false;
                 s.close();
             }
