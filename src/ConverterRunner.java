@@ -13,9 +13,8 @@ class ConverterRunner {
 
         System.out.print("Enter your number: ");
         String number = s.nextLine();
-        int n = Integer.parseInt(number);
 
-        NumberConverter nc = new NumberConverter(n, base);
+        NumberConverter nc = new NumberConverter(number, base);
 
         boolean run = true;
         int convert = 0;
